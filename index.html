@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jared Walter</title>
+</head>
+<body>
+    <div id="nameHeader"><h1>Jared Walter</h1></div>
+    <section>
+        <div class="parallax" style="background-image: url('trees.jpg');"></div>
+        <div class="parallax" style="background-image: url('burningmountain.jpg');"></div>
+        <div class="parallax" style="background-image: url('waterfall.jpg');"></div>
+        <div class="parallax" style="background-image: url('cave.jpg');"></div>
+    </section>
+    <Section class="hidden">
+        <p>Hey There</p>
+    </Section>
+    <Section class="hidden">
+        <p>This is a test</p>
+    </Section>
+    <Section class="hidden">
+        <p>I am seeing</p>
+    </Section>
+    <Section class="hidden">
+        <p>how this looks when transitioning</p>
+    </Section>
+    <section>
+        <div class="flexRowCenter">
+            <div id="defusalContainer">
+                <div class="flexColumn">
+                    <div id="defusalTimer"></div>
+                    <img src="wires/cylinder.png" style="background-color: #2E2E2E;border-radius:8px;border: 4px solid #1E1E1E;box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.3);width:2.5em;">
+                </div>
+                <div class="flexColumn">
+                    <div id="batteries"></div>
+                    <div id="keypad">
+                        <div id="keypadDisplay"></div>
+                        <div id="keypadGroup">
+                            <p class="keypadButton" id="numpad1">1</p>
+                            <p class="keypadButton" id="numpad2">2</p>
+                            <p class="keypadButton" id="numpad3">3</p>
+                            <p class="keypadButton" id="numpad4">4</p>
+                            <p class="keypadButton" id="numpad5">5</p>
+                            <p class="keypadButton" id="numpad6">6</p>
+                            <p class="keypadButton" id="numpad7">7</p>
+                            <p class="keypadButton" id="numpad8">8</p>
+                            <p class="keypadButton" id="numpad9">9</p>
+                            <p class="keypadButton">*</p>
+                            <p class="keypadButton" id="numpad0">0</p>
+                            <p class="keypadButton" id="numpadEnter">^</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexColumn">
+                    <div id="puzzleID" style="font-size:0.5em;" class="puzzleComponent"></div>
+                    <div id="Frequency">
+                        <div class="flexColumn">
+                                                    <div class="flexRowCenter">
+                                <div id="frequencyDisplay"></div>
+                            </div>
+                            <div class="flexRowCenter">
+                                <div class="dial" id="dialTen"></div>
+                                <div class="dial" id="dialOne"></div>
+                                <div class="dial" id="dialDecimal"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="wiresContainer">
+                        <div class="wire"></div>
+                        <div class="wire"></div>
+                        <div class="wire"></div>
+                        <div class="wire"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="manual" class="flexRowCenter">
+    
+                
+                <div class="Page" id="leftPage">
+                    <div id="manualLeftButton" class="manualButton"><p>&#8592;</p></div>
+                    <div class="pageChild">
+                        <h2>Dummies Guide to Defusing a Bomb</h2>
+                        <h3>It's your first time? No worries.</h3>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 3 - Overview</h2>
+                        <h3>holy shit it works</h3>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 5 - Generation cont.</h2>
+                        <p>Third generation bombs have one letter in the first half and one in the last half</p>
+                        <p>And finally, fourth generation bombs have two letters in the last half of the alphabet.</p>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 7 - Countries</h2>
+                        <p>Another key element to easily identify conventions is the manufacturing location.</p>
+                        <p>Within the serial number, the first two letters correspond to the abbreviation of a country</p>
+                        <p>The most common follows:</p>
+                        <p>US - United States</p>
+                        <p>GB - Great Britain</p>
+                        <p>DE - Germany</p>
+                        <p>AM - Armenia</p>
+                        <p>CN - China</p>
+                        <p>IN - India</p>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 9 - Numpad</h2>
+                        <p>This section references the security code (See page 6).</p>
+                        <p>The four digit numpad has common default passwords based on the country of origin and security code.</p>
+                        <p>Please know that incorrect codes may have consequences</p>
+                        
+                        <hr>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>Security Code</p><p>Default Code</p></span>
+                        <h4>United States</h4>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE1</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE2</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE3</p></span>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 11 - Numpad cont.</h2>
+                        <h3>China</h3>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE13</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE14</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE15</p></span>
+                        <h3>India</h3>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE16</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE17</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE18</p></span>
+                        <h3>Pakistan</h3>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE19</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE20</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE21</p></span>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 13</h2>
+                    </div>
+                </div>
+                <div class="Page" id="rightPage">
+                    <div id="manualRightButton" class="manualButton"><p>&#8594;</p></div>
+                    <div class="pageChild">
+                        <h2>Page 2 - The Outline</h2>
+                        <p>Overview .............................. 3</p>
+                        <p>Generation ............................ 4</p>
+                        <p>Manufacturing Location ........ 5</p>
+                        <p>Security Code ........................ 6</p>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 4 - Generation</h2>
+                        <p>Most bombs are classified into four different styles, called their generation.</p>
+                        <p>Bomb generations can be identified with the last two letters in the serial code, typically in the corner of a device.</p>
+                        <p>For the following information, please note that letters A-M are considered the first half of the alphabet.</p>
+                        <p>First generation bombs use two of the same letter</p>
+                        <p>Second generation bombs have two letters, both of which are in the first half of the alphabet.</p>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 6 - Security Code</h2>
+                        <p>This guide will make frequent references to a security code.</p>
+                        <p>The security code can easily be found by finding the sum of the digits in the serial number</p>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 8 - Countries cont.</h2>
+                        <p>PK - Pakistan</p>
+                        <p>MX - Mexico</p>
+                        <p>RU - Russia</p>
+                        <p>JP - Japan</p>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 10 - Numpad cont.</h2>
+                        <h3>Great Britain</h3>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE4</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE5</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE6</p></span>
+                        <h3>Germany</h3>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE7</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE8</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE9</p></span>
+                        <h3>Armenia</h3>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE10</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE11</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE12</p></span>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 12 - Numpad cont.</h2>
+                        <h3>Mexico</h3>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE22</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE23</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE24</p></span>
+                        <h3>Russia</h3>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE5</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE26</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE27</p></span>
+                        <h3>Japan</h3>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>0-21</p><p>CODE28</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>22-43</p><p>CODE29</p></span>
+                        <span style="display: flex;width:100%;justify-content: space-between;"><p>44-63</p><p>CODE30</p></span>
+                    </div>
+                    <div class="pageChild">
+                        <h2>Page 14</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js" type="module"></script>
+</html>
